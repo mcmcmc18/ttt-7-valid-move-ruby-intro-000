@@ -19,4 +19,9 @@ def valid_space?(number)
 end
 end
 
-def postition
+if position_taken? == false && valid_space? == true)
+  return true
+else 
+  return false
+end
+end
