@@ -12,3 +12,5 @@ else
 return true
 end
 end
+def valid_space?(number)
+  if number.between
