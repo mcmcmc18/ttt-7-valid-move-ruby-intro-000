@@ -13,4 +13,10 @@ return true
 end
 end
 def valid_space?(number)
-  if number.between
+  if number.between?(0,8)
+    return true
+  else return flase
+end
+end
+
+def postition
